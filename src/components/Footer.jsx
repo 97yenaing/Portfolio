@@ -1,0 +1,3 @@
+import { Link } from 'react-router-dom'
+
+export default function Footer() { return <footer className="bg-ink pb-8 text-white"><div className="container-shell flex flex-col gap-3 border-t border-white/10 pt-7 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between"><p>© {new Date().getFullYear()} Ye Naing. Built with care and React.</p><div className="flex gap-5"><Link className="transition hover:text-white" to="/contact">Contact</Link><button className="transition hover:text-white" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to top ↑</button></div></div></footer> }
