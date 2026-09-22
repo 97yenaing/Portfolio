@@ -36,7 +36,7 @@ npm run preview
 1. Push this project to GitHub and import the repository at Vercel.
 2. Vercel detects Vite automatically. Use `npm run build` and `dist` if prompted.
 3. Add `VITE_FORMSPREE_ENDPOINT` in Project Settings → Environment Variables.
-4. Deploy. `vercel.json` provides SPA routing fallback.
+4. Deploy. `vercel.json` provides SPA routing fallbac
 
 ## Deploy to Netlify
 
@@ -45,10 +45,10 @@ npm run preview
 3. Add `VITE_FORMSPREE_ENDPOINT` under Site configuration → Environment variables.
 4. Deploy. `public/_redirects` provides SPA routing fallback.
 
-## Content notes
+## Content notesk.
 
 - Project source and live links are intentionally labeled private/client-hosted because the CV does not provide public URLs. Replace these labels when public case studies become available.
-- The CV download lives at `public/YeNaing_Modern_CV.pdf`.
+- The CV download lives at `public/yenaing_resume.pdf`.
 - Skill percentages are relative confidence indicators, not formal assessment scores.
 
 ## Recommended next projects

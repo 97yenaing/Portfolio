@@ -13,7 +13,7 @@ export default function Hero() {
         <h1 className="hero-title">I build reliable systems<br />for <span>real-world impact.</span></h1>
         <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300 md:text-xl">I’m Ye Naing, a backend-focused software engineer turning complex data and business requirements into maintainable products with <strong className="text-ink dark:text-white">.NET, Laravel, and relational databases.</strong></p>
         <div className="mt-9 flex flex-wrap gap-3">
-          <a href="/YeNaing_Modern_CV.pdf" download className="button-primary"><Download size={18} /> Download CV</a>
+          <a href="/yenaing_resume.pdf" download className="button-primary"><Download size={18} /> Download CV</a>
           <Link to="/projects" className="button-secondary">View projects <ArrowDownRight size={18} /></Link>
           <Link to="/contact" className="button-quiet">Contact me <ArrowUpRight size={18} /></Link>
         </div>

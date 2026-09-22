@@ -4,7 +4,7 @@ import { projects } from '../data/portfolio'
 import SectionHeading from './SectionHeading'
 
 export default function Projects() {
-  return <section id="projects" className="section-space bg-white/55 dark:bg-white/[.025]"><div className="container-shell">
+  return <section id="projects" className="bg-white/55 py-16 dark:bg-white/[.025] sm:py-20 md:py-24 lg:py-28"><div className="container-shell">
     <SectionHeading eyebrow="04 / Selected work" title="Systems designed around people and data." description="Professional work is protected by client confidentiality. These summaries describe my contribution without exposing proprietary code or data." />
     <div className="grid gap-5 md:grid-cols-2">{projects.map((project, i) => <motion.article key={project.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className={`project-card ${i === 0 ? 'md:col-span-2 md:grid md:grid-cols-2' : ''}`}>
       <div className={`project-visual bg-gradient-to-br ${project.accent}`}><span>{project.number}</span><div className="code-lines"><i/><i/><i/><i/></div></div>

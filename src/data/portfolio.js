@@ -8,14 +8,14 @@ export const navItems = [
 ]
 
 export const stats = [
-  ['03+', 'Years building'], ['05', 'Core products'], ['02', 'Primary stacks'], ['360°', 'SDLC ownership'],
+  ['03+', 'Years building'], ['06', 'Core products'], ['02', 'Primary stacks'], ['360°', 'SDLC ownership'],
 ]
 
 export const skills = [
-  { category: 'Backend', level: 90, items: ['C# / .NET', 'EF Core', 'PHP / Laravel', 'Go', 'Java', 'REST APIs', 'Swagger / OpenAPI'] },
+  { category: 'Backend', level: 90, items: ['C# / .NET', 'ASP.NET Core', 'EF Core', 'REST APIs', 'Swagger / OpenAPI', 'PHP / Laravel', 'Go', 'Java'] },
   { category: 'Frontend', level: 76, items: ['JavaScript', 'HTML & CSS', 'jQuery', 'Bootstrap', 'Razor'] },
   { category: 'Database', level: 88, items: ['SQL Server 2019', 'MySQL', 'Relational design', 'Data validation', 'Excel pipelines'] },
-  { category: 'Cloud & platform', level: 77, items: ['Linux Ubuntu', 'Docker', 'LAMP stack', 'Deployment', 'Production support'] },
+  { category: 'Cloud & platform', level: 80, items: ['AWS Lambda', 'Amazon S3', 'Event-driven architecture', 'Linux Ubuntu', 'Docker', 'Deployment'] },
   { category: 'Tools', level: 84, items: ['Git', 'Postman', 'OpenAPI', 'Debugging', 'Testing', 'Migrations'] },
   { category: 'Ways of working', level: 89, items: ['Ownership', 'Problem solving', 'Stakeholder collaboration', 'Data quality', 'Continuous learning'] },
 ]
@@ -23,7 +23,7 @@ export const skills = [
 export const experiences = [
   {
     role: 'Backend Developer', company: 'BIM Myanmar', date: 'Sep 2024 — Present', current: true,
-    intro: 'Developing and maintaining backend services for enterprise products using .NET and Entity Framework Core.',
+    intro: 'Building and maintaining backend systems for enterprise products using C#, ASP.NET Core, and Entity Framework Core.',
     bullets: ['Design and maintain RESTful APIs, DTO mapping flows, validation rules, and database migrations.', 'Model complex entity relationships for ticketing, hospital, and content-management workflows.', 'Contribute across debugging, testing, performance optimization, and deployment throughout the SDLC.'],
   },
   {
@@ -39,11 +39,12 @@ export const experiences = [
 ]
 
 export const projects = [
-  { number: '01', title: 'Ticket Announce Management', type: 'Enterprise platform', description: 'Secure backend modules for ticket processing and announcement management, designed around maintainable APIs and dependable data integrity.', tech: ['.NET', 'EF Core', 'REST APIs', 'DTO Mapping'], accent: 'from-emerald-400/30 to-cyan-400/5' },
-  { number: '02', title: 'Hospital Management System', type: 'Healthcare operations', description: 'Backend capabilities for patient management, medical records, billing, and reporting across complex relational entities.', tech: ['.NET', 'SQL Server', 'Reporting', 'Optimization'], accent: 'from-lime-300/30 to-emerald-400/5' },
-  { number: '03', title: 'Headless CMS Website', type: 'Content platform', description: 'Content-driven full-stack features supporting administration, publishing workflows, and reliable product maintenance.', tech: ['Laravel', 'PHP', 'Admin workflows', 'Full stack'], accent: 'from-cyan-400/30 to-blue-500/5' },
-  { number: '04', title: 'Patient Reporting System', type: 'Data-intensive healthcare', description: 'A comprehensive reporting platform with secure validation, large-dataset handling, Excel workflows, and production support.', tech: ['Laravel', 'MySQL', 'Linux', 'Data validation'], accent: 'from-emerald-300/30 to-lime-400/5' },
-  { number: '05', title: 'JobHub', type: 'Job marketplace', description: 'Search-driven marketplace features with secure company uploads and role-based administration for three user types.', tech: ['Java', 'Spring MVC', 'MySQL', 'Spring Security'], accent: 'from-blue-400/30 to-emerald-400/5' },
+  { number: '01', title: 'Serverless S3 Processing Pipeline', type: 'Cloud automation', description: 'An event-driven AWS workflow that invokes Lambda functions when files are uploaded to Amazon S3, automating processing while keeping the solution scalable and operationally efficient.', tech: ['AWS Lambda', 'Amazon S3', 'Event-driven', 'Serverless'], accent: 'from-orange-300/30 to-amber-400/5' },
+  { number: '02', title: 'Ticket Announce Management', type: 'Enterprise platform', description: 'Secure backend modules for ticket processing and announcement management, designed around maintainable APIs and dependable data integrity.', tech: ['C#', 'ASP.NET Core', 'EF Core', 'REST APIs'], accent: 'from-emerald-400/30 to-cyan-400/5' },
+  { number: '03', title: 'Hospital Management System', type: 'Healthcare operations', description: 'Backend capabilities for patient management, medical records, billing, and reporting across complex relational entities.', tech: ['ASP.NET Core', 'SQL Server', 'Reporting', 'Optimization'], accent: 'from-lime-300/30 to-emerald-400/5' },
+  { number: '04', title: 'Headless CMS Website', type: 'Content platform', description: 'Content-driven full-stack features supporting administration, publishing workflows, and reliable product maintenance.', tech: ['Laravel', 'PHP', 'Admin workflows', 'Full stack'], accent: 'from-cyan-400/30 to-blue-500/5' },
+  { number: '05', title: 'Patient Reporting System', type: 'Data-intensive healthcare', description: 'A comprehensive reporting platform with secure validation, large-dataset handling, Excel workflows, and production support.', tech: ['Laravel', 'MySQL', 'Linux', 'Data validation'], accent: 'from-emerald-300/30 to-lime-400/5' },
+  { number: '06', title: 'JobHub', type: 'Job marketplace', description: 'Search-driven marketplace features with secure company uploads and role-based administration for three user types.', tech: ['Java', 'Spring MVC', 'MySQL', 'Spring Security'], accent: 'from-blue-400/30 to-emerald-400/5' },
 ]
 
 export const recommendations = [

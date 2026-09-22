@@ -2,7 +2,7 @@ import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react'
 import SectionHeading from './SectionHeading'
 
 export default function Contact() {
-  const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT || 'https://formspree.io/f/YOUR_FORM_ID'
+  const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT || 'https://formspree.io/f/xkjwdenb'
   return <section id="contact" className="section-space bg-ink text-white"><div className="container-shell">
     <SectionHeading eyebrow="06 / Contact" title="Let’s build something dependable." description="Have a role, project, or engineering problem in mind? Send me a note and I’ll get back to you." />
     <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">

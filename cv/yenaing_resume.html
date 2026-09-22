@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ye Naing — .NET Developer Resume</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #12211c; background: #e9eeea; font: 9.4pt/1.48 Arial, Helvetica, sans-serif; }
+    .page { position: relative; width: 210mm; height: 297mm; margin: 0 auto; padding: 15mm 16mm 14mm; overflow: hidden; background: #fff; page-break-after: always; }
+    .page:last-child { page-break-after: auto; }
+    .page::before { position: absolute; inset: 0 0 auto; height: 5mm; content: ''; background: linear-gradient(90deg, #0b7757, #76c99f); }
+    header { display: flex; align-items: flex-end; justify-content: space-between; gap: 12mm; padding: 4mm 0 7mm; border-bottom: 1px solid #cfdad4; }
+    h1 { margin: 0; font-size: 27pt; line-height: 1; letter-spacing: -1.1px; }
+    h2 { margin: 0 0 4mm; color: #0b7757; font-size: 10pt; letter-spacing: 1.6px; text-transform: uppercase; }
+    h3, p { margin: 0; }
+    h3 { font-size: 10.4pt; }
+    ul { margin: 2mm 0 0; padding-left: 4.5mm; }
+    li { margin: 1mm 0; }
+    .role { margin-top: 2.5mm; color: #0b7757; font-size: 12pt; font-weight: 700; }
+    .contact { min-width: 63mm; color: #46564f; font-size: 8.6pt; text-align: right; }
+    .contact div + div { margin-top: 1mm; }
+    .summary { margin-top: 6mm; color: #35463e; font-size: 10pt; }
+    .grid { display: grid; grid-template-columns: 1.52fr .78fr; gap: 9mm; margin-top: 7mm; }
+    .full { margin-top: 7mm; }
+    .item { margin-bottom: 5mm; }
+    .meta { margin-top: .7mm; color: #66766f; font-size: 8.3pt; }
+    .lead { margin-top: 1.8mm; color: #384940; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 1.7mm; }
+    .tag { padding: 1.2mm 2.2mm; border-radius: 20px; color: #176d53; background: #e7f5ee; font-size: 8.2pt; font-weight: 700; }
+    .side-block { padding: 4mm; border-radius: 3mm; background: #f3f7f4; }
+    .side-block + .side-block { margin-top: 4mm; }
+    .side-block h2 { margin-bottom: 3mm; }
+    .skill { margin-bottom: 3mm; }
+    .skill strong { display: block; margin-bottom: 1mm; font-size: 8.8pt; }
+    .skill span { color: #52645b; font-size: 8.2pt; }
+    .project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+    .project { min-height: 49mm; padding: 4mm; border: 1px solid #d8e2dc; border-radius: 3mm; }
+    .type { color: #0b7757; font-size: 7.8pt; font-weight: 700; letter-spacing: .7px; text-transform: uppercase; }
+    .project h3 { margin-top: 1.5mm; }
+    .project p { margin-top: 2mm; color: #46564f; font-size: 8.7pt; }
+    .tech { margin-top: 2.5mm; color: #176d53; font-size: 8pt; font-weight: 700; }
+    .credential { padding: 3.5mm 0; border-bottom: 1px solid #d8e2dc; }
+    .footer { position: absolute; right: 16mm; bottom: 7mm; color: #86938d; font-size: 7.5pt; }
+    @media print { body { background: #fff; } .page { margin: 0; } }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <header><div><h1>Ye Naing</h1><div class="role">.NET Developer · Backend Systems, APIs & CMS</div></div><div class="contact"><div>Yangon, Myanmar · Open to remote work</div><div>+95 9 750 312 681</div><div>mk.yenaing@gmail.com</div></div></header>
+    <p class="summary">.NET developer with 3+ years of professional and hands-on experience building and maintaining backend systems, REST APIs, CMS workflows, and data-intensive business products. Strong in C#, ASP.NET Core, Entity Framework Core, SQL Server, and AWS serverless services, with end-to-end experience spanning design, implementation, deployment, optimization, and production support.</p>
+    <div class="grid">
+      <main>
+        <h2>Professional Experience</h2>
+        <article class="item"><h3>Backend Developer · BIM Myanmar</h3><div class="meta">September 2024 — Present</div><p class="lead">Build and maintain backend systems for enterprise products using C#, ASP.NET Core, and Entity Framework Core.</p><ul><li>Design and implement RESTful APIs, DTO mapping flows, validation rules, and database migrations.</li><li>Model complex SQL Server relationships for ticketing, hospital, and content-management workflows.</li><li>Contribute to debugging, testing, performance optimization, deployment, and production support.</li></ul></article>
+        <article class="item"><h3>Software Engineer · Medical Action Myanmar</h3><div class="meta">February 2023 — September 2024</div><p class="lead">Delivered a full-stack patient reporting platform and supported high-volume data workflows on Linux infrastructure.</p><ul><li>Built frontend and backend features with PHP, Laravel, JavaScript, jQuery, and Bootstrap.</li><li>Owned data validation, reporting logic, and secure database operations for sensitive patient records.</li><li>Improved performance, resolved production issues, managed deployments, and iterated with stakeholders.</li></ul></article>
+        <article class="item"><h3>Software Developer Trainee · BIB Co., Ltd</h3><div class="meta">May 2022 — August 2022</div><ul><li>Built JobHub features using Java, Spring MVC, Spring Security, MySQL, and Bootstrap.</li><li>Implemented search, secure uploads, and role-based access for job seekers, companies, and administrators.</li></ul></article>
+      </main>
+      <aside>
+        <div class="side-block"><h2>Core Expertise</h2><div class="tag-list"><span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">REST APIs</span><span class="tag">EF Core</span><span class="tag">SQL Server</span><span class="tag">CMS</span><span class="tag">AWS Lambda</span><span class="tag">Amazon S3</span></div></div>
+        <div class="side-block"><h2>Strengths</h2><div class="skill"><strong>Backend Engineering</strong><span>API design, validation, relational modeling, migrations</span></div><div class="skill"><strong>Cloud & Operations</strong><span>Serverless workflows, Linux, Docker, deployment, support</span></div><div class="skill"><strong>Delivery</strong><span>Ownership, debugging, problem-solving, collaboration</span></div></div>
+        <div class="side-block"><h2>Education</h2><h3>Bachelor’s Degree (AIERP)</h3><p class="meta">University of Computer Studies, Yangon</p><p class="lead">Graduated January 2025</p></div>
+      </aside>
+    </div>
+    <div class="footer">Ye Naing · Resume · 1 / 3</div>
+  </section>
+
+  <section class="page">
+    <header><div><h1>Selected Projects</h1><div class="role">Backend, cloud, healthcare, and enterprise systems</div></div><div class="contact">Ye Naing<br />Software Engineer</div></header>
+    <div class="full project-grid">
+      <article class="project"><div class="type">Cloud Automation</div><h3>Serverless S3 Processing Pipeline</h3><p>Designed an event-driven AWS workflow that invokes Lambda functions when files are uploaded to Amazon S3, automating processing through a scalable, serverless architecture.</p><div class="tech">AWS Lambda · Amazon S3 · Event-Driven Architecture · Serverless</div></article>
+      <article class="project"><div class="type">Enterprise Platform</div><h3>Ticket Announce Management</h3><p>Developed secure backend modules for ticket processing and announcement management, with maintainable APIs and dependable data integrity.</p><div class="tech">C# · ASP.NET Core · EF Core · REST APIs</div></article>
+      <article class="project"><div class="type">Healthcare Operations</div><h3>Hospital Management System</h3><p>Built backend capabilities for patient management, medical records, billing, and reporting across complex relational entities.</p><div class="tech">ASP.NET Core · SQL Server · Reporting · Optimization</div></article>
+      <article class="project"><div class="type">Content Platform</div><h3>Headless CMS Website</h3><p>Delivered content-driven full-stack features supporting administration, publishing workflows, and reliable product maintenance.</p><div class="tech">PHP · Laravel · Admin Workflows · Full Stack</div></article>
+      <article class="project"><div class="type">Data-Intensive Healthcare</div><h3>Patient Reporting System</h3><p>Built a reporting platform with secure validation, large-dataset handling, Excel workflows, and production support.</p><div class="tech">Laravel · MySQL · Linux · Data Validation</div></article>
+      <article class="project"><div class="type">Job Marketplace</div><h3>JobHub</h3><p>Implemented search-driven marketplace features, secure company uploads, and role-based administration for three user types.</p><div class="tech">Java · Spring MVC · MySQL · Spring Security</div></article>
+    </div>
+    <div class="full"><h2>Project Impact</h2><p class="summary">These projects demonstrate practical ownership across cloud automation, API development, relational data modeling, secure workflows, reporting, deployment, and production support. Client and employer source code remains private.</p></div>
+    <div class="footer">Ye Naing · Resume · 2 / 3</div>
+  </section>
+
+  <section class="page">
+    <header><div><h1>Skills & Credentials</h1><div class="role">A practical toolkit for reliable product delivery</div></div><div class="contact">Ye Naing<br />Software Engineer</div></header>
+    <div class="grid">
+      <main>
+        <h2>Technical Skills</h2>
+        <article class="item"><h3>Backend</h3><p class="lead">C#, .NET, ASP.NET Core, Entity Framework Core, REST APIs, Swagger / OpenAPI, PHP, Laravel, Go, Java</p></article>
+        <article class="item"><h3>Frontend</h3><p class="lead">JavaScript, HTML, CSS, jQuery, Bootstrap, Razor</p></article>
+        <article class="item"><h3>Databases</h3><p class="lead">SQL Server 2019, MySQL, relational database design, migrations, data validation, Excel data pipelines</p></article>
+        <article class="item"><h3>Cloud & Platform</h3><p class="lead">AWS Lambda, Amazon S3, event-driven architecture, serverless workflows, Linux Ubuntu, Docker, LAMP stack, deployment, production support</p></article>
+        <article class="item"><h3>Engineering Tools</h3><p class="lead">Git, Postman, OpenAPI, debugging, testing, database migrations</p></article>
+        <article class="item"><h3>Professional Skills</h3><p class="lead">End-to-end ownership, analytical problem-solving, stakeholder collaboration, data quality, continuous learning</p></article>
+      </main>
+      <aside>
+        <div class="side-block"><h2>Certifications</h2><div class="credential"><h3>Relational Database</h3><p class="meta">freeCodeCamp · Developer Certification</p></div><div class="credential"><h3>Verified Technical Credential</h3><p class="meta">Skilljar · Verified Certificate</p></div></div>
+        <div class="side-block"><h2>Career Highlight</h2><p>Progressed from trainee to backend developer while contributing to six products across cloud automation, healthcare, enterprise operations, content, and recruitment.</p></div>
+        <div class="side-block"><h2>Career Objective</h2><p>Contribute as a .NET developer building and maintaining dependable backend systems, APIs, and CMS products in a collaborative remote team.</p></div>
+        <div class="side-block"><h2>Availability</h2><p>Open to backend and full-stack software engineering opportunities, including hybrid and remote roles.</p></div>
+      </aside>
+    </div>
+    <div class="footer">Ye Naing · Resume · 3 / 3</div>
+  </section>
+</body>
+</html>
